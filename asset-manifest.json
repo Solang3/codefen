@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/codefen/static/css/main.b8068935.chunk.css",
+    "main.css": "/codefen/static/css/main.da4ff9e0.chunk.css",
     "main.js": "/codefen/static/js/main.1b9c1fdf.chunk.js",
     "main.js.map": "/codefen/static/js/main.1b9c1fdf.chunk.js.map",
     "runtime~main.js": "/codefen/static/js/runtime~main.dc515d60.js",
@@ -9,9 +9,9 @@
     "static/js/2.6de0155c.chunk.js": "/codefen/static/js/2.6de0155c.chunk.js",
     "static/js/2.6de0155c.chunk.js.map": "/codefen/static/js/2.6de0155c.chunk.js.map",
     "index.html": "/codefen/index.html",
-    "precache-manifest.ebac15822d34218e844dd84278c6e51f.js": "/codefen/precache-manifest.ebac15822d34218e844dd84278c6e51f.js",
+    "precache-manifest.2529129cd1b854918dbfeb5c96cc39c4.js": "/codefen/precache-manifest.2529129cd1b854918dbfeb5c96cc39c4.js",
     "service-worker.js": "/codefen/service-worker.js",
     "static/css/2.a414b599.chunk.css.map": "/codefen/static/css/2.a414b599.chunk.css.map",
-    "static/css/main.b8068935.chunk.css.map": "/codefen/static/css/main.b8068935.chunk.css.map"
+    "static/css/main.da4ff9e0.chunk.css.map": "/codefen/static/css/main.da4ff9e0.chunk.css.map"
   }
 }
