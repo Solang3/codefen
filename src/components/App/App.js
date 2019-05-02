@@ -29,8 +29,8 @@ class App extends React.Component {
           <div className={`alert ${alert.type}`}>{alert.message}</div>
         }
         <Router history={history}>
-            <PrivateRoute exact path="/" component={DashBoard} />
-            <Route path="/authenticate" component={Authenticate} />
+            <PrivateRoute exact path="/dashboard" component={DashBoard} />
+            <Route path="/" component={Authenticate} />
         </Router>
       </Layout>
     )

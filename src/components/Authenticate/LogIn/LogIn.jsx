@@ -60,7 +60,7 @@ class LogIn extends React.Component {
                             placeholder="password"
                             name="password"
                             value={password}
-                            prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                            prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
                             onChange={this.handleChange}
                         />
                         {submitted && !password &&
