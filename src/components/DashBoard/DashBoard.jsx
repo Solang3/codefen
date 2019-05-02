@@ -19,8 +19,8 @@ class DashBoard extends React.Component {
               onBreakpoint={(broken) => { console.log(broken); }}
             >
               <div className="logo">
-                  <img src={Iso} alt="Zubi-Logo" className="logo-iso"/>
-                  <img src={Logo} alt="Zubi-Logo" className="logo-text"/>
+                  <img src={Iso} alt="codefen-Logo" className="logo-iso"/>
+                  <img src={Logo} alt="codefen-Logo" className="logo-text"/>
               </div>
               <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
                 <Menu.Item key="1">
@@ -48,7 +48,7 @@ class DashBoard extends React.Component {
             <Layout>
               <Header className="header">
                 <div className="logo">
-                    <img src={Iso} alt="Zubi-Logo" className="logo-iso"/>
+                    <img src={Iso} alt="codefen-Logo" className="logo-iso"/>
                 </div>
                 <UserDetails/>
               </Header>

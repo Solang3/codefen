@@ -1,20 +1,16 @@
-/* ZUBI STYLE */
+/* CODEFEN STYLE */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-body {
-    background: #648cff;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-  .ant-layout.zubi-app {
+  .ant-layout.codefen-app {
     background-color: transparent;
   }
 
-  .ant-layout.zubi-app .ant-card {
-      width: 335px;
-      margin: 40px auto;
-      padding: 10px;
-      box-sizing: content-box;
+  .ant-layout.codefen-app .ant-card {
+      width: 720px;
+      margin: 60px auto;
   }
-  .ant-layout.zubi-app .ant-card label {
+  .ant-layout.codefen-app .ant-card label {
       color: #999;
       font-family: Ubuntu;
   }
@@ -23,7 +19,7 @@ body {
     margin-bottom: .3125rem;
     font-size: .875rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0;
     cursor: pointer;
     border: 0;
@@ -35,27 +31,37 @@ body {
     border-color: #ccc;
     border-radius: .125rem;
     font-family: Ubuntu;
-    font-weight: 700;
+    font-weight: 500;
   }
   a.ant-btn {
       line-height: 32px;
   }
   .ant-btn.ant-btn-primary {
-    background-color: #fc6a42;
+    background-color: #ff3939;
     color: #fff;
   }
   .ant-btn.ant-btn-default {
-    color: #fc6a42;
+    color: #ff3939;
     background-color: transparent;
   }
   .ant-btn.ant-btn-primary:hover {
-    color: #fc6a42;
+    color: #ff3939;
     background-color: transparent;
-    border: none;
-    padding: 0 15px;
+    border: 2px solid #ff3939;
+    padding: 0 13px;
   }
   .ant-btn.ant-btn-default:hover {
       color: #fff;
-      background-color: #fc6a42;
+      background-color: #ff3939;
   }
+  .codefen-logo {
+    font-family: 'Montserrat';
+  }
+.ant-input {
+  border-radius: 0;
+  height: 36px;
+}
+.red {
+  color: #ff3939;
+}
 
